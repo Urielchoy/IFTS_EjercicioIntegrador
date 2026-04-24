@@ -11,11 +11,19 @@ class Tarea(Base):
         self.fechaVencimiento = fechaVencimiento
         self.posicion = posicion
 
-    def crear_tarea(self):
+    # Metodos
+    
+    def cambiar_prioridad(self):
         pass
 
-    def eliminar_tarea(self):
+    def asignar_usuario(self):
         pass
 
-    def mover_tarea(self):
+    def cambiar_estado(self):
+        pass
+
+    def editar(self):
+        pass
+
+    def copiar_tarea(self):
         pass

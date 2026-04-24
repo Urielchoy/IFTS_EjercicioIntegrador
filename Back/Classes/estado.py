@@ -8,8 +8,15 @@ class Estado(Base):
         self.posicion = posicion
         self.tareas = tareas
 
-    def crear_estado(self):
-        pass
+    
+    # Metodos
 
-    def eliminar_estado(self):
-        pass
+    def agregar_tarea(self, nuevaTarea):
+        self.append(nuevaTarea)
+
+    def eliminar_tarea(self, tareaId):
+        for t in self.tareas:
+            if t == tareaId:
+                self.tareas.remove(t)
+                break
+

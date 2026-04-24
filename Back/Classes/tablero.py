@@ -1,16 +1,26 @@
 from .base import Base
 
 class Tablero(Base):
-    def __init__(self, id, fechaCreacion, fechaModificacion, nombre, descripcion, listas, propietario):
+    def __init__(self, id, fechaCreacion, fechaModificacion, nombre, descripcion, estados, propietario):
         super().__init__(id, fechaCreacion, fechaModificacion)
         self.nombre = nombre
         self.descripcion = descripcion
-        self.listas = listas
+        self.estados = estados
         self.propietario = propietario
 
+    # Metodos
+    def agregar_estado(self, nuevoEstado):
+        self.estados.append(nuevoEstado)
 
-    def crear_tablero(self):
-        pass
+    def eliminar_estado(self, estadoId):
+        for estado in self.estados:
+            if estado.id == estadoId:
+                self.estados.remove(estado)
+                break        
 
-    def eliminar_tablero(self):
-        pass
+    def cambiar_nombre(self, nuevoNombre):
+        self.nombre = nuevoNombre
+        
+
+    
+
