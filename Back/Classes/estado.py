@@ -19,4 +19,3 @@ class Estado(Base):
             if t == tareaId:
                 self.tareas.remove(t)
                 break
-

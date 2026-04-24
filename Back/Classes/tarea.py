@@ -13,17 +13,20 @@ class Tarea(Base):
 
     # Metodos
     
-    def cambiar_prioridad(self):
-        pass
+    def cambiar_prioridad(self, nuevaPrioridad):
+        self.prioridad = nuevaPrioridad
 
-    def asignar_usuario(self):
-        pass
+    def asignar_usuario(self, nuevoAsignado):
+        self.usuarioAsignado = nuevoAsignado
 
-    def cambiar_estado(self):
-        pass
+    def cambiar_estado(self, nuevoEstado):
+        self.estado = nuevoEstado
 
-    def editar(self):
-        pass
+    def editar(self, nuevoTitulo, nuevaDescripcion):
+        if nuevoTitulo:
+            self.titulo = nuevoTitulo
+        if nuevaDescripcion:
+            self.descripcion = nuevaDescripcion
 
-    def copiar_tarea(self):
-        pass
+    
+

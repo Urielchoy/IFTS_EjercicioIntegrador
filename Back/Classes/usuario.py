@@ -26,4 +26,3 @@ class Usuario(Base):
         return self.contraseña == contraseña
         
     
-

@@ -4,4 +4,3 @@ from .tablero import Tablero
 from .tarea import Tarea
 from .usuario import Usuario
 from .comentario import Comentario
-

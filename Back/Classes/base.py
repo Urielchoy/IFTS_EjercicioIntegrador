@@ -3,3 +3,4 @@ class Base():
         self.id = id
         self.fechaCreacion = fechaCreacion
         self.fechaModificacion = fechaModificacion
+        

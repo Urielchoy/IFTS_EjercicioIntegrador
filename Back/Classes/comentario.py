@@ -15,4 +15,4 @@ class Comentario(Base):
         self.usuarioMod = hechoPorUsuario       
 
     
-        
+    

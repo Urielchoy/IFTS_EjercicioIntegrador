@@ -21,6 +21,6 @@ class Tablero(Base):
     def cambiar_nombre(self, nuevoNombre):
         self.nombre = nuevoNombre
         
-
+        
     
 
