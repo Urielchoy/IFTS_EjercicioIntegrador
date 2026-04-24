@@ -7,7 +7,7 @@ Mas información al respecto en IdeaAplicacionFinal.txt
 -------------------------------------------------------------------------------------------------------------------------------
 
 ```
-Aprobar EZ — Sistema tipo Trello{
+Sistema tipo Trello{
 
     Descripción:Gestión de tareas mediante tableros, listas y tarjetas.
 
